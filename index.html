@@ -1,18 +1,108 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8" />
+  <title>
+    Jakub Majkowski
+  </title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
 </head>
 
+<header>
+  <a href="index.html">JM</a>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About me</a></li>
+    <li><a href="#work">My projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
 <body>
+  <b style="font-size: 80px;">Hello!</b>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+  <div class="section">
+    <h2 id="about">About me</h2>
+    <img src="images/profpic.png" alt="A picture of me" style="width: 200px; height: 200px;">
+    <br>
+    <b>Jakub Majkowski</b>
+    <br>
+    <b>Student based in Warsaw, Poland</b>
+    <p>
+      I am a senior year student of Telecommunications in Warsaw University of Technology.<br>
+      My programming experience mostly revolves around university projects,<br>
+      however I have discovered a passion for creating iOS applications.
+    </p>
+    <p>
+      Despite that,
+      I am happy to work in other technologies/in other areas of development,<br>
+      as I'm sure that along with any challenge I could absorb necessary things when needed.<br>
+      I try to keep an open mind.
+    </p>
+    <p>
+      My goal right now is mostly to learn and gain experience.<br>
+      I'm currently looking for an internship/employment.<br>
+      If you like what you see here, be sure to reach me via email.
+    </p>
+    <br>
+    <ul>
+      <li><a>My CV</a></li>     <! -- PLACEHOLDER!! -->
+      <li><a href="#contact">Contact me</a></li>
+    </ul>
+  </div>
+  
+  <hr class="rounded">
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+  <div class="section">
+    <h2 id="work">My projects</h2>
+    <div class="showcase">
+      <div class="app">
+        <a href="bpmeter.html">
+          <img class="appimg" src="images/BPMeter/BPMicon.png" alt="BPMeter app icon" style="width: 300px; height: 300px;">
+          <br>BPMeter
+        </a>
+        <br>
+        <p class="shortDesc">A metronome and Tap Tempo tool app</p>
+      </div>
 
+      <div class="app">
+        <a href="easykeep.html">
+          <img class="appimg" src="images/EasyKeep/EKicon.png" alt="EasyKeep app icon" style="width: 300px; height: 300px;">
+          <br>EasyKeep
+        </a>
+        <br>
+        <p class="shortDesc">Fast, Simple Password Generator for iPhones</p>
+      </div>
+    </div>
+
+    <br>
+    <center>Other projects can be found on my <a href="https://github.com/jamajk">GitHub</a>.</center>
+  </div>
+
+  <hr class="rounded">
+
+  <div class="section">
+    <h2 id="contact">Contact</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/jamajk">GitHub</a>
+      </li>
+      <li>
+        <a href="mailto:jakub.a.majkowski@gmail.com">jakub.a.majkowski@gmail.com</a>
+      </li>
+    </ul>
+  </div>
+
+  <hr class="rounded">
 </body>
+
+<footer>
+  learning by creating this website.<br>
+  &copy Jakub Majkowski, 2021
+</footer>
+
 </html>

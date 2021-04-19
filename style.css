@@ -1,0 +1,93 @@
+html {
+    background-color: rgb(32, 35, 36);
+    color: snow;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+header, nav, footer {
+    font-weight: 100;
+    color: snow;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(85, 84, 83);
+    display: inline-block;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: snow;
+}
+
+a:visited {
+    color: snow;
+}
+
+a:hover {
+    color: rgb(117, 115, 115);
+}
+
+a:active {
+    color: rgb(56, 56, 56);
+}
+
+ul {
+    list-style: none;
+}
+
+.showcase {
+    text-align: center;
+    padding: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+.app {
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    font-size: xx-large;
+    float: none;
+}
+
+.app a {
+    font-weight: 100;
+}
+
+.shortDesc {
+    font-size: medium;
+}
+
+.section {
+    margin: auto;
+    padding: 20px;
+}
+
+hr.rounded {
+    border-top: 3px solid rgba(70, 69, 69, 0.5);
+    border-bottom: 3px solid rgba(70, 69, 69, 0.5);
+    border-left: 3px solid rgba(70, 69, 69, 0.5);
+    border-right: 3px solid rgba(70, 69, 69, 0.5);
+    background-color: rgba(70, 69, 69, 0.5);
+    border-radius: 1.5px;
+    width: 90%;
+  }
