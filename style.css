@@ -5,20 +5,74 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    /* margin-top: 100px; */
+    margin-left: 0px;
+}
 
 h2 {
     text-align: center;
 }
 
-header, nav, footer {
+footer {
     font-weight: 100;
     color: snow;
 }
 
+#logo {
+    text-align: left;
+    /* font-size: xx-large; */
+}
+
+#welcome {
+    height: fit-content;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+}
+#welcome img {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    padding: 0px;
+}
+
+#welcome b {
+    z-index: 9000;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+
 nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
     background-color: rgb(85, 84, 83);
     display: inline-block;
+    font-size: larger;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    transition: top 0.3s;
+}
+
+nav li {
+    /* background-color: sienna; */
+    display: inline;
+}
+
+nav a {
+    /* background-color: slategray; */
+    display: inline;
+    padding: 0 1em 0 1em;
+    margin: 0;
+    text-align: right;
 }
 
 footer {
@@ -26,6 +80,44 @@ footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+#name {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#profilepic {
+    width: 70%;
+}
+
+#aboutsection {
+    /* background-color: royalblue; */
+    display: block;
+    text-align: center;
+}
+
+#summary {
+    /* background-color: seagreen; */
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+
+#textwall {
+    /*background-color: rosybrown;*/
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 0 auto;
+    padding: auto;
+}
+
+#textwall p {
+    font-size: large;
 }
 
 a {
@@ -50,6 +142,7 @@ a:active {
 
 ul {
     list-style: none;
+    list-style-position: outside;
 }
 
 .showcase {
@@ -79,7 +172,6 @@ ul {
 
 .section {
     margin: auto;
-    padding: 20px;
 }
 
 hr.rounded {
@@ -90,4 +182,49 @@ hr.rounded {
     background-color: rgba(70, 69, 69, 0.5);
     border-radius: 1.5px;
     width: 90%;
-  }
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btnList {
+    text-align: center;
+    display: block;
+}
+
+.secondaryBtn:link {
+    border:  1px solid snow;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.secondaryBtn:visited {
+    border: 1px solid snow;
+}
+
+.secondaryBtn:hover {
+    border: 1px solid rgb(117, 115, 115);
+}
+
+.secondaryBtn:active {
+    border: 1px solid rgb(56, 56, 56);
+}
+
+#textLink {
+    text-decoration: underline;
+}
+
+#imgButton:visited {
+    opacity: 1;
+}
+
+#imgButton:link {
+    opacity: 1;
+}
+
+#imgButton:hover {
+    opacity: 0.5;
+}
+
+#imgButton:active {
+    opacity: 0.3;
+}
