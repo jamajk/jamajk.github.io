@@ -38,6 +38,7 @@ footer {
     position: relative;
     object-fit: cover;
     padding: 0px;
+    background-position: 20px;
 }
 
 #welcome b {
@@ -84,29 +85,47 @@ footer {
 
 #name {
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
+    /* font-size: 3vw; */
+    /* background-color: seashell; */
+    margin-top: 0;
 }
 
 #profilepic {
-    width: 70%;
+    top: 15px;
+    position: absolute;
+    display: inline-block;
+    width: 15%;
+    /* width: 300px; */
+    margin-right: 20px;
+    bottom: 700px;
+    /* background-color: saddlebrown; */
+    /* margin-top: 0; */
+    padding-top: 0;
+    margin: 0 auto;
 }
 
 #aboutsection {
-    /* background-color: royalblue; */
     display: block;
     text-align: center;
+    /* background-color: slateblue; */
+    position: relative;
 }
 
 #summary {
     /* background-color: seagreen; */
     width: 20%;
+    height: fit-content;
     display: inline-block;
     text-align: left;
     margin-right: 5%;
+    margin-left: 330px;
+    bottom: 70px;
+    position: relative;
 }
 
 #textwall {
-    /*background-color: rosybrown;*/
+    /* background-color: rosybrown; */
     width: 25%;
     height: 100%;
     display: inline-block;
@@ -114,10 +133,14 @@ footer {
     margin-left: 5%;
     margin-top: 0 auto;
     padding: auto;
+    /* top: 10px; */
+    position: relative;
 }
 
 #textwall p {
+    /* font-size: 1.0vw; */
     font-size: large;
+    max-inline-size: 100%;
 }
 
 a {
@@ -207,6 +230,33 @@ hr.rounded {
 
 .secondaryBtn:active {
     border: 1px solid rgb(56, 56, 56);
+}
+
+.primaryButton {
+    font-family: 'Roboto', sans-serif;
+    border:  1px solid snow;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+}
+
+.primaryButton:hover {
+    opacity: 0.5;
+}
+
+#cvbtn {
+    display: block;
+    width: 40%;
+}
+
+#contactbtn {
+    text-align: center;
+    display: block;
+    width: 34%;
 }
 
 #textLink {
