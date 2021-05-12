@@ -1,0 +1,19 @@
+body {
+    margin-top: 100px;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+
+#icon {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+}
+
+#priv {
+    position: relative;
+    top: 10px;
+}

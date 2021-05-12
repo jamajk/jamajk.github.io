@@ -7,6 +7,9 @@
         BPMeter
     </title>
     <link href="style.css" rel="stylesheet">
+    <link href="style-bpmeter.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <nav>
@@ -18,25 +21,26 @@
 <body>
     <div>
         <h1>BPMeter</h1>
-        <img src="images/BPMeter/BPMicon.png" alt="BPMeter App Icon" style="width: 400px; height: 400px;">
+        <img id="icon" src="images/BPMeter/BPMicon.png" alt="BPMeter App Icon">
     </div>
     
     <a href="https://apps.apple.com/app/bpmeter/id1560564391">
         <img src="images/appstore.png" alt="Link to App Store" width="150">
     </a>
-    <div>
+    <div class="appDesc">
         <p>A simple app featuring a tap tempo tool and a metronome for musicians. Supports dark mode.</p>
         <p>This is the second app I've ever created, and the first that made it onto App Store.</p>
         <p>Built using UIKit and Storyboards, BPMeter served as a continued introduction into the world of 
             App Development.</p>
     </div>
-
-    <div>
+    <hr class="rounded">
+    <div id="screenshots">
         <img src="images/BPMeter/ss1.png" alt="Screenshot #1" width="300px">
         <img src="images/BPMeter/ss2.png" alt="Screenshot #2" width="300px">
     </div>
 
-    <a>Privacy Policy</a>       <! -- PLACEHOLDER!! -->
+    <a id="priv">Privacy Policy</a>       <! -- PLACEHOLDER!! -->
+    <hr class="rounded">
 </body>
 
 <footer>
