@@ -10,12 +10,7 @@ document.onscroll = function() {
   } else {
     showNavBar();
   }
-  image.style.backgroundPositionY = newScrollPos + "px";
 }
-
-window.addEventListener('resize', adjust);
-
-
 
 function hideNavBar() {
   document.getElementsByTagName("nav")[0].style.top = "-100px";

@@ -110,6 +110,7 @@ hr.rounded {
     color: snow;
     border-radius: 5px;
     padding: 10px;
+    min-width: 100px;
 }
 
 .primaryBtn {
@@ -119,4 +120,5 @@ hr.rounded {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+    min-width: 100px;
 }
