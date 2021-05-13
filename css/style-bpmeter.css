@@ -17,3 +17,16 @@ nav {
     position: relative;
     top: 10px;
 }
+
+.appDesc {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-left: 5pc;
+    padding-right: 5pc;
+    /* margin: 2pc; */
+}
+
+/* .appDesc p {
+    text-align: left;
+} */

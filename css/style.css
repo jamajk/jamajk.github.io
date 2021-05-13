@@ -45,6 +45,7 @@ nav a {
     padding: 0 1em 0 1em;
     margin: 0;
     text-align: right;
+    color: snow;
 }
 
 footer {
@@ -59,19 +60,19 @@ a {
 }
 
 a:link {
-    color: snow;
+    opacity: 1;
 }
 
 a:visited {
-    color: snow;
+    opacity: 1;
 }
 
 a:hover {
-    color: rgb(117, 115, 115);
+    opacity: 0.5;
 }
 
 a:active {
-    color: rgb(56, 56, 56);
+    opacity: 0.3;
 }
 
 ul {
@@ -104,49 +105,18 @@ hr.rounded {
     display: block;
 }
 
-.secondaryBtn:link {
+.secondaryBtn {
     border:  1px solid snow;
+    color: snow;
     border-radius: 5px;
     padding: 10px;
 }
 
-.secondaryBtn:visited {
-    border: 1px solid snow;
-}
-
-.secondaryBtn:hover {
-    border: 1px solid rgb(117, 115, 115);
-}
-
-.secondaryBtn:active {
-    border: 1px solid rgb(56, 56, 56);
-}
-
-.primaryButton {
-    font-family: 'Roboto', sans-serif;
+.primaryBtn {
     border:  1px solid snow;
+    background-color: snow;
+    color: rgb(32, 35, 36);
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: medium;
-}
-
-.primaryButton:hover {
-    opacity: 0.5;
-}
-
-.appDesc {
-    position: relative;
-    display: block;
-    text-align: center;
-    padding-left: 5pc;
-    padding-right: 5pc;
-    /* margin: 2pc; */
-}
-
-.appDesc p {
-    text-align: left;
+    margin-bottom: 10px;
 }

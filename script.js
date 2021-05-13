@@ -1,13 +1,16 @@
 const topPos = window.pageYOffset;
 var pageSize = window.pageSize;
+const image = document.getElementById("banner");
 
 document.onscroll = function() {
   var newScrollPos = window.pageYOffset;
+  
   if (newScrollPos > topPos) {
       hideNavBar();
   } else {
     showNavBar();
   }
+  image.style.backgroundPositionY = newScrollPos + "px";
 }
 
 window.addEventListener('resize', adjust);
